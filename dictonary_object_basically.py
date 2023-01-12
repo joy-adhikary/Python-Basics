@@ -12,13 +12,17 @@ joy = {
     "state": "state nai ",
     "country": "country uganda ",
     "year": 2023,
-    "description": [1, 2, 3, 4, 4, 5]
+    "description": [1, 2, 3, 4, 4, 5],
+    "full_address": {
+            "name": "joy",
+            "id": "062",
+            "age": "24",
+            "city": "dh"
+    }
 }
 
 
-
 #         part one
-
 
 
 # print(joy)
@@ -57,10 +61,10 @@ joy = {
 # print(joy)
 
 
-#                 part two 
+#                 part two
 
 
-# loop only in keys 
+# loop only in keys
 for x in joy:
     print(x)
 
@@ -70,7 +74,6 @@ for x in joy:
     print(joy[x])
 
 
-#loop key => value
-for key,value in joy.items():
-    print(key,"=>",value)
-
+# loop key => value
+for key, value in joy.items():
+    print(key, "=>", value)

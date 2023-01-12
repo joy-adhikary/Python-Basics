@@ -69,6 +69,9 @@ p5.pri()
 
 #                                    inheritance start from here 
 
+
+
+
 # this child class will use all joy4 properties 
 # pass add korsi karon ami ei child class a kisu add korchi nah ajonno jodi kisu add kortam tkn eita pass nah diye properties diye ditam
 
@@ -99,5 +102,23 @@ p7=child_with_init("joy","x","child",62)
 print("this is last ")
 p7.pri()
 print(p7.child)
+
+
+
+
+
+# class xx:
+#     def __init__(self,x):
+#         self.x=x*10;
+
+# xi=xx(50)
+
+# class y(xx):
+#     def __init__(self,x,y):
+#         xx.__init__(self,x)
+#         self.y=y
+
+# pp=y(50,60)
+# print(pp.x,pp.y)
 
 
